@@ -23,7 +23,24 @@ export default class Homepage extends React.Component{
 
     }
 
-    
+    updateData(data,type){
+        let that = this;
+        let upvoteSessionData = that.getData();
+        let news = data.hits;
+        if(upvoteSessionData !== null){
+            for(let i=0;i<news.length;i++){
+                news[i]["upvoteCount"] = !upvoteSessionData[news[i]["objectID"]] ? "" : upvoteSessionData[news[i]["objectID"]]["upvoteCount"];
+                news[i]["hide"] = !upvoteSessionData[news[i]["objectID"]] ? "" : upvoteSessionData[news[i]["objectID"]]["hide"];
+            }
+        }
+        that.setState({
+            alldata:news,
+            isLoaded:true,
+            pageIndex:type === "updatePage"?that.state.pageIndex+1:that.state.pageIndex
+        });
+        
+
+    }
 
     render(){
         let itemindex = this.state.showingPageNumber === 0 ? this.state.showingPageNumber : this.state.showingPageNumber+10;
