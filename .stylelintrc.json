@@ -1,0 +1,14 @@
+{
+    "plugins": [
+      "stylelint-scss"
+    ],
+    "rules": {
+      "scss/at-extend-no-missing-placeholder": true,
+      "scss/selector-no-redundant-nesting-selector": true,
+      "scss/at-else-closing-brace-newline-after": "always-last-in-chain",
+      "scss/at-else-closing-brace-space-after": "always-intermediate",
+      "scss/at-else-empty-line-before": "never",
+      "scss/at-if-closing-brace-newline-after": "always-last-in-chain",
+      "scss/at-if-closing-brace-space-after": "always-intermediate"
+    }
+}
