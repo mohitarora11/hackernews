@@ -16,7 +16,7 @@ import "./comment.css";
                 {data.map(item =>
                     <div key={item.id} className="comment">
                         <div>
-                            <p>[-] <NavLink to={"/"+item.id}>{item.author}</NavLink>
+                            <p><NavLink to={"/"+item.id}>{item.author}</NavLink>
                                 <span className="hour">{parseInt(item.created_at_i / 86400000)} hour ago</span>
                             </p>
 

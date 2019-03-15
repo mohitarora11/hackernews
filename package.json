@@ -2,6 +2,7 @@
   "name": "hackernews",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/mohitarora11/hackernews",
   "dependencies": {
     "eslint": "5.12.0",
     "eslint-plugin-react": "^7.12.4",
