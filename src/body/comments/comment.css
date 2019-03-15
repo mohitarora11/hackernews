@@ -1,0 +1,101 @@
+.header {
+	padding: 15px;
+}
+
+.header p {
+	font-size: 10px;
+	margin: 10px 0 0;
+}
+
+.header form {
+	margin-top: 15px;
+}
+
+.header form ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header form ul li {
+	margin-bottom: 15px;
+}
+
+.header textarea {
+	display: block;
+    width: 70%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.header .btn-primary {
+	padding: 8px 15px;
+	background-color: rgb(255, 102, 0);
+	color: #fff;
+	border: 0;
+	font-size: 12px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.comments-body {
+	padding: 15px;
+	background-color: #fff;
+	border-left: 2px solid #666;
+	margin-left: 15px;
+	color: #333;
+}
+
+
+.comments-body div {
+	margin-bottom: 20px;
+}
+
+
+.hour {
+	font-size: 11px;
+	color: #999;
+	margin-left: 10px;
+}
+
+.comment-description {
+	padding-left: 15px;
+	padding-top: 10px;
+	margin-bottom: 0 !important;
+	line-height: 20px;
+}
+
+.reply {
+	padding-left: 15px;
+	margin-top: 10px;
+	text-decoration: underline;
+	font-size: 12px;
+}
+
+
+
+.comments {
+	padding: 15px;
+}
+
+.comments .comment {
+	margin-bottom: 20px;
+}
+
+.innerComment {
+	background-color: #fff;
+    margin: 15px 0;
+}
+
+
+.innerComment .comment .innerComment {
+	background-color: #f3f3f3;
+}
+
+

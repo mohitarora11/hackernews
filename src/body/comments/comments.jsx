@@ -1,6 +1,6 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
-
+import Comment from "./comment";
 import Header from "../../header/header";
 
 
@@ -56,7 +56,7 @@ export default class Comments extends React.Component{
                                 </ul>
                             </form>
                         </div>
-                        
+                        <Comment {...this.props} data={$data.children}/>
                     </React.Fragment>
             :
                 <div>
